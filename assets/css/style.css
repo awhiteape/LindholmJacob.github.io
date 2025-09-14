@@ -1,0 +1,131 @@
+:root{
+
+}
+
+*{
+    margin: 0;
+}
+
+div {
+    padding: 10px;
+}
+h2 {
+    padding: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    padding: 3px;
+}
+
+hr {
+    margin: 0 auto;
+    padding: 1px;
+    border-radius: 10px;
+    width: 90%;
+    height:1px;
+    background-color: black;
+    justify-content: center;
+}
+
+.navigation-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navigation-bar {
+    position: sticky;
+    top: 0;
+    background-color: #F5F0CD;
+    box-shadow: 0 5px 15px -10px #000;
+}
+
+.filter-buttons  ul {
+    list-style-type: none;
+}
+
+.navigation-items ul {
+    list-style-type: none;
+}
+
+.navigation-container li {
+    text-align: center;
+    display: inline-block;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+.navigation-items li:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+.header {
+    margin: 0;
+    background-color: #3674B5;
+    display: flex;
+    height: 15rem;
+}
+
+.header-image {
+    width: 75%;
+    text-align: center;
+    color: white;
+    background-image: url("../media/free_dev_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
+}
+
+.header-info {
+    width: 25%;
+    text-align: left;
+    color: white;
+    padding: 20px;
+}
+
+.resume-info {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer {
+    height: 40px;
+    padding: 20px;
+    background-color: #3674B5;
+    box-shadow: 0 5px 15px 5px #000;
+}
+
+.experience ul{
+    list-style-type: none;
+}
+
+.education {
+    padding: 20px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content:space-between;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
