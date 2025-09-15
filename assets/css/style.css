@@ -98,6 +98,11 @@ hr {
     padding: 20px;
 }
 
+.contact-info a {
+    color: white;
+    padding-left: 10px;
+}
+
 .resume-info {
     margin-left: 20px;
     margin-right: 20px;
